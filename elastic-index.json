@@ -1,0 +1,12 @@
+{
+  "mappings": {
+     "dataset_doc" : {
+	    "properties": {
+      	    "dataset_name": { "type": "text" },
+	        "dataset_description": { "type": "text" },
+	        "dataset_owner": { "type": "text" },
+            "dataset_tags": { "type": "text" }
+    	}
+     }
+  }
+}
